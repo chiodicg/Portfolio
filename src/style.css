@@ -1,6 +1,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
+
 }
 header {
   position: fixed;
@@ -12,7 +13,22 @@ header {
   background: #01529b;
   color: white;
   height: 72px;
+  min-width: 570px;
 }
+
+@media (max-width: 480px) { 
+  header {
+    min-width: 400px;
+    height: 100px;
+  }
+  nav a {
+  padding: 0px 10px;
+}
+nav a:hover {
+  color: #f6f6f6;
+  text-decoration: underline;
+}
+ }
 
 header ul {
   padding: 0;
@@ -36,22 +52,57 @@ header li {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.5em;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
   right: 50px;
-  margin: 20px 10px;
+  margin: 20px 15px;
 }
 
-#welcome-section {
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 25px 10px;
+}
+
+nav a:hover {
+  color: #f6f6f6;
+  background: #014582;
+}
+
+.container {
   background: #f6f6f6;
+  margin: 0;
+  padding: 0;
   width: 100%;
+}
+#welcome-section {
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.intro {
+  line-height: 100px;
+}
+.intro-text {
+  display: inline-block;
+  text-align: center;
+}
+
+.intro-img {
+  display: inline-block;
+}
+
+.my-photo {
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
 }
