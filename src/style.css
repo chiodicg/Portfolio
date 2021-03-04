@@ -1,7 +1,5 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
-
 }
 header {
   position: fixed;
@@ -73,10 +71,8 @@ nav a:hover {
   background: #014582;
 }
 
-.container {
+.container-fluid {
   background: #f6f6f6;
-  margin: 0;
-  padding: 0;
   width: 100%;
 }
 #welcome-section {
@@ -100,9 +96,21 @@ nav a:hover {
 }
 
 .my-photo {
-  height: 150px;
+  height: 250px;
+  margin-right: 10px;
 }
 
 h1 {
   text-align: center;
+}
+
+div.contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+img.contact {
+  height: 40px;
+  margin: 20px;
 }
