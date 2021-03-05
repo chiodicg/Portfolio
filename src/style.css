@@ -1,7 +1,70 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header {
+
+@media only screen and (max-width: 480px) { 
+  header {
+    min-width: 400px;
+  }
+  nav {
+    right: 20px;
+    margin: 20px 8px;
+  }
+  nav a {
+    padding: 5px 10px;
+  }
+  nav a:hover {
+    color: #f6f6f6;
+    text-decoration: underline;
+    background: none;
+  }
+  #welcome-section {
+    height: 90vh;
+  }
+  img.project {
+    height: 90px;
+    width: 110px;
+  }
+  #projects {
+    height: 50vh;
+  }
+  #contact {
+    height: 20vh;
+  }
+ }
+
+ @media only screen and (min-width: 480px) { 
+  header {
+    height: 72px;
+    min-width: 570px;
+  }
+  nav {
+    right: 50px;
+    margin: 20px 15px;
+  }
+  nav a {
+    padding: 25px 10px;
+  }
+  nav a:hover {
+    color: #f6f6f6;
+    background: #7c444c;
+  }
+  #welcome-section {
+    height: 70vh;
+  }
+  img.project {
+    height: 150px;
+    width: 220px;
+  }
+  #projects {
+    height: 70vh;
+  }
+  #contact {
+    height: 30vh;
+  }
+ }
+
+ header {
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -10,23 +73,16 @@ header {
   width: 100%;
   background: #770011;
   color: white;
-  height: 72px;
-  min-width: 570px;
+}
+p {
+  font-size: 2vmin;
 }
 
-@media (max-width: 480px) { 
-  header {
-    min-width: 400px;
-    height: 100px;
-  }
-  nav a {
-  padding: 0px 10px;
+h1 {
+  color: #770011;
+  font-size: 3vmin;
+  text-align: center;
 }
-nav a:hover {
-  color: #f6f6f6;
-  text-decoration: underline;
-}
- }
 
 header ul {
   padding: 0;
@@ -39,7 +95,7 @@ header h3 {
   display: flex;
   justify-content: flex-start;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 3.5vmin;
   line-height: 1.5em;
   margin: 20px;
   padding-left: 20px;
@@ -48,43 +104,26 @@ header h3 {
 header li {
   display: inline;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 3.5vmin;
   line-height: 1.5em;
-  margin-left: 15px;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
-  right: 50px;
-  margin: 20px 15px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  padding: 25px 10px;
-}
-
-nav a:hover {
-  color: #f6f6f6;
-  background: #7c444c;
 }
 
 #welcome-section {
-  height: 60vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-}
-
-#projects {
-  height: 70vh;
-}
-
-#contact {
-  height: 30vh;
 }
 
 .intro-text {
@@ -100,16 +139,6 @@ nav a:hover {
 .my-photo {
   height: 250px;
   margin-right: 10px;
-}
-
-h1 {
-  color: #770011;
-  text-align: center;
-}
-
-img.project {
-  height: 150px;
-  width: 220px;
 }
 
 .projects a {
