@@ -18,9 +18,6 @@ body {
     text-decoration: underline;
     background: none;
   }
-  #welcome-section {
-    height: 90vh;
-  }
   img.project {
     height: 90px;
     width: 110px;
@@ -48,9 +45,6 @@ body {
   nav a:hover {
     color: #f6f6f6;
     background: #7c444c;
-  }
-  #welcome-section {
-    height: 70vh;
   }
   img.project {
     height: 150px;
