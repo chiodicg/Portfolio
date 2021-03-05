@@ -5,19 +5,27 @@ body {
 @media only screen and (max-width: 480px) { 
   header {
     min-width: 400px;
+    height: 64px;
   }
   nav {
     right: 20px;
     margin: 20px 8px;
   }
   nav a {
-    padding: 0 10px;
+    padding: 0 8px;
+  }
+  header h3 {
+    font-size: 2.3vmax;
+  }
+  header li {
+    font-size: 2.3vmax;
   }
  }
 
  @media only screen and (min-width: 480px) { 
   header {
     min-width: 570px;
+    height: 72px;
   }
   nav {
     right: 50px;
@@ -25,6 +33,13 @@ body {
   }
   nav a {
     padding: 15px 10px;
+  }
+  header h3 {
+    font-size: 2.7vmax;
+    padding-left: 20px;
+  }
+  header li {
+    font-size: 2.7vmax;
   }
  }
 
@@ -38,7 +53,6 @@ body {
   width: 100%;
   background: #770011;
   color: white;
-  height: 72px;
 }
 p {
   font-size: 2vmin;
@@ -60,17 +74,14 @@ header ul {
 header h3 {
   display:inline-block;
   font-weight: bold;
-  font-size: 2.7vmax;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin: 20px;
-  padding-left: 20px;
 }
 
 header li {
   display: inline;
   font-weight: bold;
-  font-size: 2.7vmax;
-  line-height: 1.4em;
+  line-height: 1.5em;
 }
 
 nav {
