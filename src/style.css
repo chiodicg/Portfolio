@@ -19,14 +19,8 @@ body {
     background: none;
   }
   img.project {
-    height: 90px;
-    width: 110px;
-  }
-  #projects {
-    height: 50vh;
-  }
-  #contact {
-    height: 20vh;
+    height: 100px;
+    width: 140px;
   }
  }
 
@@ -49,12 +43,6 @@ body {
   img.project {
     height: 150px;
     width: 220px;
-  }
-  #projects {
-    height: 70vh;
-  }
-  #contact {
-    height: 30vh;
   }
  }
 
@@ -112,12 +100,17 @@ nav a {
   text-decoration: none;
 }
 
+section {
+  margin-bottom: 30px;
+}
+
 #welcome-section {
-  height: 70vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  margin-bottom: 0;
 }
 
 .intro-text {
