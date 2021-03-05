@@ -18,10 +18,6 @@ body {
     text-decoration: underline;
     background: none;
   }
-  img.project {
-    height: 100px;
-    width: 140px;
-  }
  }
 
  @media only screen and (min-width: 480px) { 
@@ -39,10 +35,6 @@ body {
   nav a:hover {
     color: #f6f6f6;
     background: #7c444c;
-  }
-  img.project {
-    height: 150px;
-    width: 220px;
   }
  }
 
@@ -136,6 +128,11 @@ section {
 
 .projects a:hover {
   color:#770011;
+}
+
+img.project {
+  height: 150px;
+  width: 220px;
 }
 
 div.contact {
