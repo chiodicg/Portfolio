@@ -13,16 +13,10 @@ body {
   nav a {
     padding: 0 10px;
   }
-  nav a:hover {
-    color: #f6f6f6;
-    text-decoration: underline;
-    background: none;
-  }
  }
 
  @media only screen and (min-width: 480px) { 
   header {
-    height: 72px;
     min-width: 570px;
   }
   nav {
@@ -30,23 +24,21 @@ body {
     margin: 20px 15px;
   }
   nav a {
-    padding: 20px 10px;
-  }
-  nav a:hover {
-    color: #f6f6f6;
-    background: #7c444c;
+    padding: 15px 10px;
   }
  }
 
  header {
   position: fixed;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   top: 0;
   left: 0;
   width: 100%;
   background: #770011;
   color: white;
+  height: 72px;
 }
 p {
   font-size: 2vmin;
@@ -61,16 +53,15 @@ h1 {
 header ul {
   padding: 0;
   margin: 0;
-  display: inline;
+  display: inline-block;
   list-style-type: none;
 }
 
 header h3 {
-  display: flex;
-  justify-content: flex-start;
+  display:inline-block;
   font-weight: bold;
-  font-size: 3.5vmin;
-  line-height: 1.5em;
+  font-size: 2.7vmax;
+  line-height: 1.4em;
   margin: 20px;
   padding-left: 20px;
 }
@@ -78,8 +69,8 @@ header h3 {
 header li {
   display: inline;
   font-weight: bold;
-  font-size: 3.5vmin;
-  line-height: 1.5em;
+  font-size: 2.7vmax;
+  line-height: 1.4em;
 }
 
 nav {
@@ -90,6 +81,11 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
+}
+
+nav a:hover {
+  color: #f6f6f6;
+  text-decoration: underline;
 }
 
 section {
