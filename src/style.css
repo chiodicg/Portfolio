@@ -20,6 +20,9 @@ body {
   header li {
     font-size: 3.5vmin;
   }
+   .my-photo {
+    height: 180px;
+  }
  }
 
  @media only screen and (min-width: 480px) { 
@@ -42,6 +45,9 @@ body {
   header li {
     font-size: 2.7vmax;
   }
+  .my-photo {
+    height: 250px;
+  }
  }
 
  header {
@@ -56,7 +62,7 @@ body {
   color: white;
 }
 p {
-  font-size: 2vmin;
+  font-size: 2.2vmin;
 }
 
 h1 {
@@ -107,7 +113,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-bottom: 0;
+  margin: 0 10px;
 }
 
 .intro-text {
@@ -121,7 +127,6 @@ section {
 }
 
 .my-photo {
-  height: 250px;
   margin-right: 10px;
 }
 
