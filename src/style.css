@@ -23,6 +23,12 @@ body {
    .my-photo {
     height: 180px;
   }
+    .projects {
+    margin-bottom: 30px;
+  }
+  #welcome-section {
+    height: 290px;
+  }
  }
 
  @media only screen and (min-width: 480px) { 
@@ -48,6 +54,12 @@ body {
   .my-photo {
     height: 250px;
   }
+  .projects-row {
+    margin-bottom: 30px;
+  }
+    #welcome-section {
+    height: 395px;
+  }
  }
 
  header {
@@ -62,7 +74,7 @@ body {
   color: white;
 }
 p {
-  font-size: 2.4vmin;
+  font-size: 2.5vmin;
 }
 
 h1 {
@@ -108,14 +120,17 @@ section {
 }
 
 #welcome-section {
-  height: 60vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: 0 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 30px 10px;
 }
 
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .intro-text {
   display: inline-block;
   text-align: center;
@@ -138,6 +153,10 @@ section {
 
 .projects a:hover {
   color:#770011;
+}
+
+.projects p {
+  margin-bottom: 0;
 }
 
 img.project {
