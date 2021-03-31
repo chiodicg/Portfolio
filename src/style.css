@@ -21,10 +21,7 @@ body {
     font-size: 3.5vmin;
   }
    .my-photo {
-    height: 180px;
-  }
-    .projects {
-    margin-bottom: 30px;
+    height: 170px;
   }
   #welcome-section {
     height: 290px;
@@ -54,9 +51,6 @@ body {
   .my-photo {
     height: 250px;
   }
-  .projects-row {
-    margin-bottom: 30px;
-  }
     #welcome-section {
     height: 395px;
   }
@@ -75,6 +69,7 @@ body {
 }
 p {
   font-size: 2.7vmin;
+  margin: 10px;
 }
 
 h1 {
@@ -155,6 +150,10 @@ section {
 
 .projects a:hover {
   color:#770011;
+}
+
+.projects {
+  margin-bottom: 30px;
 }
 
 p.title-project {
