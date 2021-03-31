@@ -138,6 +138,7 @@ section {
 }
 
 .my-photo {
+  border-radius: 30%;
   margin-right: 10px;
 }
 
