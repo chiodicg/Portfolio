@@ -148,6 +148,7 @@ section {
 
 .projects a {
   color:black;
+  font-size: 3vmin;
   font-weight: bold;
   text-decoration: none;
 }
@@ -156,13 +157,14 @@ section {
   color:#770011;
 }
 
-.projects p {
+p.title-project {
   margin-bottom: 0;
 }
 
 img.project {
-  height: 175px;
-  width: 250px;
+  border-radius: 5%;
+  height: 300px;
+  width: 300px;
 }
 
 div.contact {
