@@ -142,11 +142,15 @@ section {
   margin-right: 10px;
 }
 
-.projects a {
+.projects a.title {
   color:black;
   font-size: 3vmin;
   font-weight: bold;
   text-decoration: none;
+}
+
+.projects a#circle {
+  color:black;
 }
 
 .projects a:hover {
